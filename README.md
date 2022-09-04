@@ -19,7 +19,7 @@ pip install service_identity
 
 For convenience, you can store the RSA keys in the `keys` folder
 
-To generate them, run 
+To generate them, make a `keys` folder and run 
 
 ```` shell
 ssh-keygen -t rsa -b 4096 -C "server" -f keys/id_rsa_localhost
